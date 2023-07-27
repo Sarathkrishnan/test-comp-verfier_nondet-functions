@@ -9,5 +9,5 @@
 afl-clang-lto verifier_nondet.c benchmark_program.c -o main.o
 
 # fuzzing command
-afl-fuzz -i input -o output ./main.o
+afl-fuzz -i input/ -o output/ ./main.o
 ```
